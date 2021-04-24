@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+  padding: px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.address h2 {
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.address .lga {
+  width: 100%;
+  text-align: center;
+}
+
+.address .contact {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.side {
+  width: 50%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+li {
+  margin-left: 20px;
+}
